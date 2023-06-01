@@ -1,5 +1,5 @@
+Web version available at [https://rafaelsoley.github.io/weather-controller/](https://rafaelsoley.github.io/weather-controller/)
 
-> Open this page at [https://rafaelsoley.github.io/weather-controller/](https://rafaelsoley.github.io/weather-controller/)
 # Weather-Controller
 The receiving base of my MicroBit weather station, made with MakeCode and Python.
 
