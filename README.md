@@ -1,14 +1,31 @@
 
 > Open this page at [https://rafaelsoley.github.io/weather-controller/](https://rafaelsoley.github.io/weather-controller/)
+# Weather-Controller
+The receiving base of my MicroBit weather station, Made with MakeCode and Python.
 
-## Use as Extension
+## Setup
+**1. Set up the LEDs**
+Blue LED on pin 0 and gnd
+Red LED on pin 1 and gnd
+Yellow LED on pin 1 and gnd
 
-This repository can be added as an **extension** in MakeCode.
+**2. Set up the transmitter**
+Follow the steps on [weather-base](https://github.com/rafaelsoley/weather-base)
+Once both microbits are turned on and with the programming set up, you should see the blue light turn on in the controller microbit.
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/rafaelsoley/weather-controller** and import
+**3. Set up the parameters (OPTIONAL)**
+For the base project, the parameters are as follows:
+- Minimum Temperature: 15 C
+- Medium Temperature: 24 C
+- Maximum Temperature: 35 C
+
+When the temperature is either under the minimum temperature, or is over the maximum temperature, the red light will turn on, and a SKULL emoji will appear on the LCD.
+When the temperature is exactly at 24 degrees, the yellow light will turn on.
+
+If the temperature is inside the parameters, only the blue light will be on.
+
+**4. Edit the code to your liking (OPTIONAL)**
+Feel like the code needs some improvements? Feel free to make your edits, and if you want that implemented, fill in a pull request, and I will happily merge the codes.
 
 ## Edit this project ![Build status badge](https://github.com/rafaelsoley/weather-controller/workflows/MakeCode/badge.svg)
 
