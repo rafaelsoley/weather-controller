@@ -28,7 +28,8 @@ If the temperature is inside the parameters, only the blue light will be on.<br>
 **4. Edit the code to your liking (OPTIONAL)**<br>
 Feel like the code needs some improvements? Feel free to make your edits, and if you want that implemented, fill in a pull request, and I will happily merge the codes.
 
-## Edit this project ![Build status badge](https://github.com/rafaelsoley/weather-controller/workflows/MakeCode/badge.svg)
+## Edit this project
+![Build status badge](https://github.com/rafaelsoley/weather-controller/workflows/MakeCode/badge.svg)
 
 To edit this repository in MakeCode.
 
